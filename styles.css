@@ -236,12 +236,10 @@
 
  }
 
- @media (min-width: 320px) {
-  
- }
-
+ 
 html{
   box-sizing: border-box;
+  min-width: 320px;
 }
 *, *::after, *::before{
   box-sizing: inherit;
@@ -277,6 +275,12 @@ button{
 .tablet-buttons{
   display: none;
 }
+.header-main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 17px;
+}
 
 .logo{
   display: flex;
@@ -286,4 +290,75 @@ button{
   content: url(/icons/divider.png);
   position: relative;
   left: 16px;
+}
+.common-button{
+  display: flex;
+  width: 96px;
+  justify-content: space-between;
+  margin-left:20px ;
+}
+main{
+  background-color:var(--main-background-color) ;
+
+}
+
+h1{
+  font-family: TTLakes-bold, sans-serif;
+  line-height: 40px;
+  font-size: 28px;
+  display: inline-flex;
+  justify-content: flex-start;
+  gap:12px;
+  margin: 24px 0 0 0;
+}
+h1::before{
+  content: url(/icons/highlight.png);
+}
+
+.main-list{
+  display: flex;
+  justify-content:space-between;
+  overflow-x: auto;
+  white-space: nowrap;
+  font-family: TTLakes-regular, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  gap: 16px;
+  margin-left: 16px;
+}
+.main-list::-webkit-scrollbar{
+  display: none;
+}
+
+.main-menu-link{
+  color: var(--nav-menu-text-color);
+  text-decoration: none;
+  height: 40px;
+}
+.description-text{
+  font-family: TTLakes-regular, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 18px;
+  font-weight: 400;
+  margin: 0 16px;
+}
+.read-next{
+display: inline-flex;
+justify-content: flex-start;
+padding-left:16px;
+margin-top: 16px;
+}
+.read-next-link{
+  font-family: TTlakes-regular, sans-serif;
+font-size: 16px;
+line-height: 24px;
+color:#1B1C21;
+font-weight: 500;
+letter-spacing: -0.2px;
+text-decoration: none;
+}
+
+.read-next::before{
+  content: url(/icons/expand.png);
 }
