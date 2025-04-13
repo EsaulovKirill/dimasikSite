@@ -1,0 +1,38 @@
+ <header class="header">
+        <h1>Услуги и сервисы</h1>
+        <nav class="header-menu">
+            <ul class="header-menu-list">
+                <li class="header-menu-item">
+                    <a href="/" class="header-menu-link">Ремонтируемые бренды</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="/" class="header-menu-link">Дополнительные услуги</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="/" class="header-menu-link">Цены на услуги</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="/" class="header-menu-link">Адреса сервисных центров</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="/" class="header-menu-link">Специальные цены</a>
+                </li>
+                <li class="header-menu-item">
+                    <a href="/" class="header-menu-link">Специальные цены</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <button 
+                class="header-order-button button"
+                type="button">
+                Оставить заявку
+                <img src="/icons/repair.png" width="40px">
+            </button>
+            <button class="header-status-button button"
+                type="button">
+                Статус ремонта
+                <img src="/icons/checkstatus.png" width="40px">
+            </button>
+        </div>
+    </header>
