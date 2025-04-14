@@ -1,1 +1,1 @@
-https://github.com/EsaulovKirill/dimasikSite
+https://esaulovkirill.github.io/dimasikSite/
