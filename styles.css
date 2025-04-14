@@ -312,7 +312,7 @@ h1{
   margin: 24px 0 0 0;
 }
 h1::before{
-  content: url(/icons/highlight.png);
+  content: url(icons/highlight.png);
 }
 
 .main-list{
@@ -360,5 +360,5 @@ text-decoration: none;
 }
 
 .read-next::before{
-  content: url(/icons/expand.png);
+  content: url(icons/expand.png);
 }
